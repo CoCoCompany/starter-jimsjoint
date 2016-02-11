@@ -50,7 +50,11 @@ class Orders extends MY_Model {
 
     // cancel an order
     function flush($num) {
-
+        $this->Orderitems->delete_some($num);
+        $record = $this->Orders->get($num);
+        $record->status = 'x';
+        $this->orders->update($record);
+        redirect('/');
     }
 
     // validate an order
