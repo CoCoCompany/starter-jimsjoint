@@ -4,8 +4,13 @@ Fall2015 lab 04
 
 This project is the starter for COMP4711 Lab 4, for the Fall 2015 session.
 
-This webapp is broken. On purpose :) 
-Your job is to fix it, following the directions in lab 04.
+**********
+Developers
+**********
+Casper Co
+Jimmi Lin
+
+This webapp is fixed, on purpose
 
 *******************
 Server Requirements
